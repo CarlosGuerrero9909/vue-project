@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # proyecto-vue
 
 ## Project setup
@@ -17,3 +18,6 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# proyecto-vue
+>>>>>>> 8700e794e31d43174fa135d3e137892e4ed1a2fe
