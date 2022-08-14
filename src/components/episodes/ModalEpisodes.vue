@@ -3,15 +3,14 @@
     <div class="mascara-modal">
       <div class="envoltura-modal">
         <div class="tarjeta-modal">
-          <h1 class="titulo-modal">Filter Locations</h1>
+          <h1 class="titulo-modal">Filter Episodes</h1>
           <va-form
             class="modal-form"
-            @submit.prevent="hacerBusquedaLocations"
+            @submit.prevent="hacerBusquedaEpisodes"
             tag="form"
           >
             <va-input label="Name" v-model="namer" />
-            <va-input class="mt-3" label="Type" v-model="type" />
-            <va-input class="mt-3" label="Dimension" v-model="dimension" />
+            <va-input class="mt-3" label="Episode code" v-model="episode" />
             <va-button type="submit" class="mt-3"> Search </va-button>
           </va-form>
         </div>
@@ -26,16 +25,15 @@ export default {
   data() {
     return {
       namer: "",
-      type: "",
-      dimension: "",
+      episode: "",
     };
   },
   methods: {
     cerrarModal() {
       this.$emit("_cerrarModal", false);
     },
-    hacerBusquedaLocations() {
-        this.$emit("_realizarBusquedaLocations", [this.namer, this.type, this.dimension])
+    hacerBusquedaEpisodes() {
+        this.$emit("_realizarBusquedaEpisodes", [this.namer, this.episode])
     },
   },
 };

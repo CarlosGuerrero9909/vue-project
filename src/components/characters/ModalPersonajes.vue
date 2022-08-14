@@ -57,6 +57,11 @@ export default {
 </script>
 
 <style scoped>
+
+.titulo-modal{
+  color: #2c82e0;
+}
+
 .mascara-modal {
   position: fixed;
   z-index: 100;

@@ -21,8 +21,8 @@
     </template>
   </va-navbar>
   <!-- <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
+    <router-link to="/">Home</router-link> 
+    <router-link to="/about">About</router-link> 
     <router-link to="/otros">Otros</router-link> 
   </nav> -->
   <router-view/>
@@ -51,15 +51,21 @@ nav a.router-link-exact-active {
 }
 
 .ancla{
-  color: #2c3e50; 
-}
-
-.ancla:visited{
-  color: #2c3e50; 
+  font-size: 1.5rem;
+  color: #2c82e0;
+  padding: 10px;
 }
 
 .ancla:focus{
   color: lightcyan;
+}
+
+.ancla:hover{
+  background-color: #2c82e0;
+  color: lightcyan;
+  box-shadow: 5px 5px 10px #2c82e0;
+  transform: translateY(-10%);
+  transition: all 300ms ease;
 }
 
 .logo{
