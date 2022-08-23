@@ -1,5 +1,7 @@
-<<<<<<< HEAD
 # proyecto-vue
+![img-vue-project](https://user-images.githubusercontent.com/90810310/186043560-762f8968-2748-47bb-be6c-564c215c2d0e.png)
+
+#https://carlosguerrero-rickandmorty.netlify.app/
 
 ## Project setup
 ```
@@ -18,6 +20,3 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
-# proyecto-vue
->>>>>>> 8700e794e31d43174fa135d3e137892e4ed1a2fe
