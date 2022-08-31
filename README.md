@@ -1,5 +1,6 @@
 # proyecto-vue
 ![img-vue-project](https://user-images.githubusercontent.com/90810310/186043560-762f8968-2748-47bb-be6c-564c215c2d0e.png)
+[recording-2022-08-31-17-37-10.webm](https://user-images.githubusercontent.com/90810310/187797140-023b1a2d-5936-43b6-8485-1eb15982a111.webm)
 
 Link: https://carlosguerrero-rickandmorty.netlify.app/
 
